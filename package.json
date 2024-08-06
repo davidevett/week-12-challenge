@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "epress": "^0.0.1-security",
+    "express": "^4.19.2",
+    "inquirer": "^8.2.4",
+    "pg": "^8.12.0"
+  }
+}
