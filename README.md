@@ -16,7 +16,7 @@ This is a simple program that displays information about the database and provid
 Andrea Presto
 Jeremy Henry
 ## Tests
-
+Screencastify was not working properly i will release a link in the email
 ## License
 
   This project is licensed under the MIT license.
