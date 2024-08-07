@@ -24,3 +24,8 @@ CREATE TABLE employee (
     );
 
 \i seeds.sql
+
+-- Reset sequence values to the maximum ID + 1
+SELECT setval('department_id_seq', (SELECT MAX(id) FROM department) + 1);
+SELECT setval('role_id_seq', (SELECT MAX(id) FROM role) + 1);
+SELECT setval('employee_id_seq', (SELECT MAX(id) FROM employee) + 1);
